@@ -1,6 +1,7 @@
 #include  <LiquidCrystal.h>
 
 LiquidCrystal lcd(11, 10, 9, 6, 5, 4, 3); //my lcd pin setup, change it to yours
+//LiquidCryst lcd(rs, rw, enable, d4, d5, d6, d7)
 int backLight = 43;
 
 int f=4;                  //set frames per second (fps)
